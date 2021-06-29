@@ -1,0 +1,17 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}Новые картины{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Новые картины</h1>
+        <p>На сайте ведутся работы, в скором все будет :)</p>
+        <button class="btn btn-warning">На страницу про нас</button>
+
+        {% for el in values %}
+            {% if el == 'Hello' %}
+                <p>{{ el|lower }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock %}
