@@ -1,0 +1,10 @@
+.features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.description {
+    color: black;
+    background: rgba(128, 128, 210, 0.35);
+}
